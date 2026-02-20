@@ -1,0 +1,21 @@
+dataset:
+  name: chexpert
+
+model:
+  name: nv-reason
+
+# Optional; used for race/gender subgroup TPR if available.
+splits: "<OPTIONAL_FILL_ME_SPLITS_METADATA_CSV>"
+
+metrics:
+  # TODO(student-config): output of extract_chexpert_labels.py
+  labels_path: "<FILL_ME_LABELS_CSV>"
+  # TODO(student-config): output of run_eval.py
+  predictions_path: "<FILL_ME_PREDICTIONS_JSONL>"
+  # TODO(student-config): where compute_metrics.py should write CSV summaries
+  output_dir: "<FILL_ME_METRICS_OUTPUT_DIR>"
+  bertscore:
+    model_type: distilbert-base-uncased
+    lang: en
+    batch_size: 16
+    rescale_with_baseline: false

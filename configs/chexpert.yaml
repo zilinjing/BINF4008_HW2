@@ -1,0 +1,16 @@
+batch_size: 64
+
+dataset:
+  name: chexpert
+  # TODO(student-config): folder that contains the image paths referenced by metadata CSV.
+  base_dir: "<FILL_ME_DATASET_BASE_DIR>"
+
+# TODO(student-config): metadata CSV used by src/data/clean.py (must contain section_* and path_to_image columns).
+metadata: "<FILL_ME_METADATA_CSV>"
+
+model:
+  name: nv-reason
+
+prompt:
+  system: You are an expert radiologist.
+  user: Provide a description of the findings in the radiology image.
