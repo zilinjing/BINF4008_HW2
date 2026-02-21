@@ -32,7 +32,6 @@ Code TODO blocks:
   - `TODO(student-metrics-1)`: implement `_compute_prf(...)`.
   - `TODO(student-metrics-2)`: finish macro/micro aggregation in `_compute_label_metrics(...)`.
 
-Total code TODOs to implement: **6**
 
 ## Run Templates
 
