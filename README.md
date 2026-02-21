@@ -21,12 +21,10 @@ Config placeholders:
   - `metrics.labels_path`
   - `metrics.predictions_path`
   - `metrics.output_dir`
-  - optional: `splits`
 
 Code TODO blocks:
-- `src/runners/run_eval.py`: 2 TODOs
+- `src/runners/run_eval.py`: 1 TODO
   - `TODO(student-1)`: build final report-generation prompt (prompt formatting).
-  - `TODO(student-2)`: call batched multimodal generation.
 - `src/runners/extract_chexpert_labels.py`: 2 TODOs
   - `TODO(student-extract-1)`: implement `load_transformers_model(...)`.
   - `TODO(student-extract-2)`: implement `batch_extract(...)`.
