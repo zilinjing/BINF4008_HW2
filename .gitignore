@@ -4,7 +4,6 @@
 *.log
 __pycache__/
 experiments/
-data/
 data/chexpert/
 *.csv
 logs/
